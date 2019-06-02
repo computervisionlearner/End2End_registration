@@ -5,6 +5,7 @@ Created on Sat Apr 27 11:09:28 2019
 
 @author: no1
 特征点检测、特征描述、特征匹配及配准全过程
+西安电子科技大学
 """
 
 import argparse
