@@ -204,8 +204,8 @@ if __name__ =="__main__":
   args = vars(parser.parse_args())
   initLogging(args['descriptors_dir'] + ".log")
   
-  image1 = cv2.imread(args['image1'])
-  image2 = cv2.imread(args['image2'])
+  image1 = cv2.imread(args['image1'])   #参考图像
+  image2 = cv2.imread(args['image2'])   #待配准图像 
   batch_size = args['batch_size']
   descriptors_dir = args['descriptors_dir']
   kps_path = args['kps_path']
