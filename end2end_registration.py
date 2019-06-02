@@ -4,6 +4,7 @@
 Created on Sat Apr 27 11:09:28 2019
 
 @author: no1
+输入图像块的尺寸是64×64
 """
 
 import argparse
